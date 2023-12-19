@@ -1,5 +1,5 @@
 {
-  "name": "database",
+  "name": "@affdash/database",
   "version": "0.0.0",
   "private": true,
   "main": "dist/index.js",
@@ -16,5 +16,16 @@
     "@libsql/client": "^0.4.0-pre.5",
     "drizzle-kit": "^0.20.7",
     "drizzle-orm": "^0.29.1"
-  }
+  },
+  "description": "shared types",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasvanvelzen/affdash-database.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasvanvelzen/affdash-database/issues"
+  },
+  "homepage": "https://github.com/thomasvanvelzen/affdash-database#readme"
 }
