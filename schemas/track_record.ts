@@ -9,4 +9,5 @@ export const trackRecords = sqliteTable("track_records", {
   percentage: integer("percentage").notNull(),
   ua: text("ua"),
   ip: text("ip"),
+  countryCode: text("countryCode"),
 });

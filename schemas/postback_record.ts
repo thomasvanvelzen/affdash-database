@@ -8,5 +8,5 @@ export const postbackRecords = sqliteTable("postback_records", {
   payout: integer("payout").notNull(),
   timestamp: integer("timestamp").notNull(),
   percentage: integer("percentage").notNull(),
+  countryCode: text("countryCode"),
 });
-
