@@ -7,5 +7,6 @@ export const postbackRecords = sqliteTable("postback_records", {
   clickId: text("clickId").notNull(),
   payout: integer("payout").notNull(),
   timestamp: integer("timestamp").notNull(),
+  percentage: integer("percentage").notNull(),
 });
 

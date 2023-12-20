@@ -6,6 +6,7 @@ export const trackRecords = sqliteTable("track_records", {
   affiliateId: text("affiliateId").notNull(),
   clickId: text("clickId").notNull(),
   timestamp: integer("timestamp").notNull(),
+  percentage: integer("percentage").notNull(),
   ua: text("ua"),
   ip: text("ip"),
 });
