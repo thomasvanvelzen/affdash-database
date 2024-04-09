@@ -6,7 +6,7 @@ export const paymentMethods = sqliteTable("payment_methods", {
   userId: text("user_id")
     .notNull()
     .references(() => users.id),
-  methodName: numeric("method_name").notNull(),
+  name: numeric("name").notNull(),
   type: text("type").notNull(),
   data: text("data", { mode: "json" }).notNull(),
 });

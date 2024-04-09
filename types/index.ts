@@ -1,4 +1,5 @@
 export { User } from "./user";
 export { Offer } from "./offer";
-export { TrackRecord } from "./track_record";
-export { PostbackRecord } from "./postback_record";
+export { Record } from "./record";
+export { PaymentRequest } from "./payment-request";
+export { PaymentMethod } from "./payment-method";
